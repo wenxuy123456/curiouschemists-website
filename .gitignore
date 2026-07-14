@@ -1,4 +1,6 @@
 cloudflare-deploy/
 curiouschemists-cloudflare.zip
+tmp/
+.wrangler/
 .DS_Store
 Thumbs.db

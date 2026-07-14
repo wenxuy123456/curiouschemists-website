@@ -1,0 +1,19 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "curiouschemists-website",
+  "compatibility_date": "2026-07-14",
+  "assets": {
+    "directory": "./cloudflare-deploy"
+  },
+  "workers_dev": true,
+  "routes": [
+    {
+      "pattern": "curiouschemists.com/*",
+      "zone_name": "curiouschemists.com"
+    },
+    {
+      "pattern": "www.curiouschemists.com/*",
+      "zone_name": "curiouschemists.com"
+    }
+  ]
+}
